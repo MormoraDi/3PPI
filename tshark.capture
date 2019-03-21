@@ -1,0 +1,4 @@
+# Tshark capture example
+# Disables name resolution, stops after 30 seconds, filters for TCP and creates a json formatted file with newline for each packet
+
+tshark -n -a duration:30 -O tcp -T json -S /n -q > dns.query
