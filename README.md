@@ -7,5 +7,3 @@ The current project involves Raspberry Pi integration with IBM Watson cloud serv
 # Files
 tshark-config.sh    # Creates a service for tshark to run
 tshark.capture      # tshark capture command
-
-
